@@ -87,8 +87,15 @@
 	<div id="map" width="100px"></div>
 </body>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX13EEF6GqQXtK_F7Wdp28lJ3YzE4WZoQ&callback=initMap&v=weekly"
+      defer
+    ></script>
 <script type="text/javascript">
+
+	window.initMap = initMap;
+	
 	let map;
 	let marker;
 	let geocoder;
@@ -173,7 +180,5 @@
 	    });
 	}
 	//prabhat colony
-
-	window.initMap = initMap;
 </script>
 </html>
